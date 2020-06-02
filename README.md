@@ -5,7 +5,7 @@ Simple Bash script convert Zim-Wiki files into TiddlyWiki format inspired by htt
 
 1. Download the `.sh` script
 
-2. Suppose the Zim notebook is located at `notebook_dir` ( which will have the `noteboke.zim` file)
+2. Suppose the Zim notebook is located at `notebook_dir` ( which will have the `noteboke.zim` file, the script will recursively go over every `.txt` file)
 ```bash
 ./Zim2Tiddly notebook_dir output_dir
 ```
