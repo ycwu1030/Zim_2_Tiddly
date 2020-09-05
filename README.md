@@ -1,5 +1,7 @@
-# Zim to Tiddly
+# Zim to Tiddly and Tiddly to Markdown
 Simple Bash script convert Zim-Wiki files into TiddlyWiki format inspired by https://github.com/0xMH/Zim-Tiddlywiki-converter. Simple markups will convert into TiddlyWiki style. The LaTeX math formula will be inserted back into the file in correponding places. Screenshots will be renamed according the to time stamp, and all be placed into Figures folder, and the image link will be placed in note file. 
+
+Another script converting Tiddly format to markdown is also provided.
 
 ## Usage
 
@@ -9,6 +11,8 @@ Simple Bash script convert Zim-Wiki files into TiddlyWiki format inspired by htt
 ```bash
 ./Zim2Tiddly.sh notebook_dir output_dir
 ```
+
+Similar for `Tiddly2MD.sh`
 
 ## Format that can be handled
 
